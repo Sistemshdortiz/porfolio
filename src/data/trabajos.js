@@ -51,7 +51,7 @@ export const trabajos = [
     {
         'id': 'linkedin',
         'nombre': 'LinkedIn',
-        'url': 'https://www.linkedin.com/in/jorge-salazar-maceda-91956a9a/',
+        'url': 'https://www.linkedin.com/in/hdortizjinez/',
         'tecnologias': 'HTML, CSS, Bootstrap, PHP, Laravel',
         'categorias': 'Red Social',
         'descripcion': 'Lorem Ipsum'
