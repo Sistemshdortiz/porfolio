@@ -49,7 +49,7 @@ export const trabajos = [
         'descripcion': 'Lorem Ipsum'
     },
     {
-        'id': 'linkedin',
+        'id': 'linkedIn',
         'nombre': 'LinkedIn',
         'url': 'https://www.linkedin.com/in/hdortizjinez/',
         'tecnologias': 'HTML, CSS, Bootstrap, PHP, Laravel',
