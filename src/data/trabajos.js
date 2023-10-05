@@ -49,8 +49,8 @@ export const trabajos = [
         'descripcion':'Lorem Ipsum'
     },
     {
-        'id':'linkedinññññ',
-        'nombre':'LinkedIn',
+        'id':'linkedin',
+        'nombre':'LinkedInnnn',
         'url':'https://www.linkedin.com/in/jorge-salazar-maceda-91956a9a/',
         'tecnologias':'HTML, CSS, Bootstrap, PHP, Laravel',
         'categorias':'Red Social',
