@@ -9,51 +9,51 @@ Estás usando JSX --> Es decir, JS mezclado con HTML
 
 export const trabajos = [
     {
-        'id':'gitJorge',
-        'nombre':'GitHub de Jorge',
-        'url':'https://github.com/JorgeSalazarMaceda',
-        'tecnologias':'HTML, CSS, Bootstrap, PHP, MySql',
-        'categorias':'Repositorio',
-        'descripcion':'Lorem Ipsum'
+        'id': 'gitJorge',
+        'nombre': 'GitHub de Jorge',
+        'url': 'https://github.com/JorgeSalazarMaceda',
+        'tecnologias': 'HTML, CSS, Bootstrap, PHP, MySql',
+        'categorias': 'Repositorio',
+        'descripcion': 'Lorem Ipsum'
     },
     {
-        'id':'youtube',
-        'nombre':'Youtube',
-        'url':'https://www.youtube.com/watch?v=8ui9umU0C2g&ab_channel=manchesterorchVEVO',
-        'tecnologias':'JS, React, PHP, Symfony',
-        'categorias':'Videos',
-        'descripcion':'Lorem Ipsum'
+        'id': 'youtube',
+        'nombre': 'Youtube',
+        'url': 'https://www.youtube.com/watch?v=8ui9umU0C2g&ab_channel=manchesterorchVEVO',
+        'tecnologias': 'JS, React, PHP, Symfony',
+        'categorias': 'Videos',
+        'descripcion': 'Lorem Ipsum'
     },
     {
-        'id':'youtube2',
-        'nombre':'Youtube',
-        'url':'https://www.youtube.com/watch?v=8ui9umU0C2g&ab_channel=manchesterorchVEVO',
-        'tecnologias':'JS, React, PHP, Symfony',
-        'categorias':'Videos',
-        'descripcion':'Lorem Ipsum'
+        'id': 'youtube2',
+        'nombre': 'Youtube',
+        'url': 'https://www.youtube.com/watch?v=8ui9umU0C2g&ab_channel=manchesterorchVEVO',
+        'tecnologias': 'JS, React, PHP, Symfony',
+        'categorias': 'Videos',
+        'descripcion': 'Lorem Ipsum'
     },
     {
-        'id':'youtube3',
-        'nombre':'Youtube',
-        'url':'https://www.youtube.com/watch?v=8ui9umU0C2g&ab_channel=manchesterorchVEVO',
-        'tecnologias':'JS, React, PHP, Symfony',
-        'categorias':'Videos',
-        'descripcion':'Lorem Ipsum'
+        'id': 'youtube3',
+        'nombre': 'Youtube',
+        'url': 'https://www.youtube.com/watch?v=8ui9umU0C2g&ab_channel=manchesterorchVEVO',
+        'tecnologias': 'JS, React, PHP, Symfony',
+        'categorias': 'Videos',
+        'descripcion': 'Lorem Ipsum'
     },
     {
-        'id':'udemy',
-        'nombre':'Udemy',
-        'url':'https://www.udemy.com/home/my-courses/learning/',
-        'tecnologias':'Mean Stack',
-        'categorias':'Cursos',
-        'descripcion':'Lorem Ipsum'
+        'id': 'udemy',
+        'nombre': 'Udemy',
+        'url': 'https://www.udemy.com/home/my-courses/learning/',
+        'tecnologias': 'Mean Stack',
+        'categorias': 'Cursos',
+        'descripcion': 'Lorem Ipsum'
     },
     {
-        'id':'linkedin',
-        'nombre':'LinkedInnnn',
-        'url':'https://www.linkedin.com/in/jorge-salazar-maceda-91956a9a/',
-        'tecnologias':'HTML, CSS, Bootstrap, PHP, Laravel',
-        'categorias':'Red Social',
-        'descripcion':'Lorem Ipsum'
+        'id': 'linkedin',
+        'nombre': 'LinkedIn',
+        'url': 'https://www.linkedin.com/in/jorge-salazar-maceda-91956a9a/',
+        'tecnologias': 'HTML, CSS, Bootstrap, PHP, Laravel',
+        'categorias': 'Red Social',
+        'descripcion': 'Lorem Ipsum'
     }
 ];
