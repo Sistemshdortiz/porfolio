@@ -5,6 +5,9 @@ export const HeaderNav = () => {
     return (
         <header className='header'>
             <div className='logo'>
+                <div>
+                    <img src={'/images/perfil_Img.png'} alt="Jorge" width={120} height={120} style={{ marginRight: '10px', borderRadius: '15px' }} />
+                </div>
                 <span>H</span>
                 <h3>ernán Ortiz WEB</h3>
             </div>
