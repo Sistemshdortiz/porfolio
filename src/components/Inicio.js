@@ -12,9 +12,6 @@ export const Inicio = () => {
         un 💻 <strong>Desarrollador Web</strong>  💻 con base en
         Madrid, España,
         apasionado por crear experiencias web cautivadoras. Mi trayectoria en el mundo del desarrollo web me ha proporcionado un conjunto diverso de habilidades que incluye JavaScript, React, PHP y más.
-
-        Impulsado por la curiosidad por las últimas tecnologías y el compromiso de entregar soluciones de alta calidad, prospero en entornos dinámicos donde la creatividad y la resolución de problemas son fundamentales. Ya sea construyendo aplicaciones web interactivas, optimizando interfaces de usuario o colaborando con equipos multidisciplinarios, estoy dedicado a ampliar los límites de lo posible en el ámbito digital.
-
         Echa un vistazo más de cerca a mi portafolio para explorar algunos de mis proyectos recientes y descubrir cómo puedo contribuir a tu próximo emprendimiento de desarrollo web.
 
       </h1>
