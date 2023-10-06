@@ -9,9 +9,9 @@ Estás usando JSX --> Es decir, JS mezclado con HTML
 
 export const trabajos = [
     {
-        'id': 'gitJorge',
-        'nombre': 'GitHub de Jorge',
-        'url': 'https://github.com/JorgeSalazarMaceda',
+        'id': 'rou2go',
+        'nombre': 'Rou2Go',
+        'url': 'https://rou2go.netlify.app',
         'tecnologias': 'HTML, CSS, Bootstrap, PHP, MySql',
         'categorias': 'Repositorio',
         'descripcion': 'Lorem Ipsum'
