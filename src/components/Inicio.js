@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Contacto } from './Contacto';
 import { ListadoTrabajosRandom } from './ListadoTrabajosRandom';
 
 export const Inicio = () => {
