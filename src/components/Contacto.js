@@ -5,7 +5,7 @@ export const Contacto = () => {
     <div className='page'>
       <h1 className='heading'>Contacto</h1>
 
-      <form className='contact' data-netlify="true" method="POST" action='mailto:jorgesmaceda@hotmail.com'>
+      <form className='contact' data-netlify="true" method="POST" action='mailto:hd.ortiz_j@hotmail.com'>
         <input type='text' placeholder='Nombre' />
         <input type='text' placeholder='Apellidos' />
         <input type='text' placeholder='Email' />
