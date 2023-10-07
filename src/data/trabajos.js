@@ -17,8 +17,8 @@ export const trabajos = [
         'descripcion': 'Lorem Ipsum'
     },
     {
-        'id': 'youtube',
-        'nombre': 'Youtube',
+        'id': 'expensesapp',
+        'nombre': 'ExpensesApp',
         'url': 'https://www.youtube.com/watch?v=8ui9umU0C2g&ab_channel=manchesterorchVEVO',
         'tecnologias': 'JS, React, PHP, Symfony',
         'categorias': 'Videos',
