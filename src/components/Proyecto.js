@@ -13,14 +13,14 @@ export const Proyecto = () => {
     useEffect(() => {
         let proyecto = trabajos.filter(trabajo => trabajo.id === params.id);
         setProyecto(proyecto[0]); /* Asignamos el proyecto a ese estado que estás filtrando con el indice 0 para seleccionar el unico proyecto que hay en la variable proyecto*/
-    }, []);
+    }, [params.id]);
 
     return (
         <div className='page page-work'>
             <h1 className='heading'>Proyecto: {proyecto.nombre}</h1>
             <div className='mask'>
                 <a href={proyecto.url} target='_blank' rel="noreferrer">
-                    <img src={`/images/${proyecto.id}.png`} alt={`imagen ${proyecto.id}`} />
+                    <img src={`/images/${proyecto.id}.gif`} alt={`imagen ${proyecto.id}`} />
                 </a>
             </div>
             <p>Tecnologías: {proyecto.tecnologias}</p>
