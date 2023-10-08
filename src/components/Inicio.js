@@ -38,7 +38,7 @@ Echa un vistazo más de cerca a mi portafolio para explorar algunos de mis proye
     <div className='home'>
       <h1>{typedText}</h1>
 
-      <h2 className='tittle'>Te ayudo a crear tu sitio o app web<Link to='/contacto'> Contacta conmigo.</Link></h2>
+      <h2 className='tittle'>Te ayudo a crear tu sitio o app web <Link to='/contacto'> Contacta conmigo.</Link></h2>
 
       {/* Poner carrousel de proyectos */}
       <section className='last-works'>
