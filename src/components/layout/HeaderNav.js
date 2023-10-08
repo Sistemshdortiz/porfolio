@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import DarkMode from '../DarkMode';
 
 export const HeaderNav = () => {
     return (
@@ -28,6 +29,9 @@ export const HeaderNav = () => {
                     </li>
                     <li>
                         <NavLink to='/contacto' className={({ isActive }) => isActive ? 'active' : ''}>Contacto</NavLink>
+                    </li>
+                    <li>
+                        <DarkMode></DarkMode>
                     </li>
                 </ul>
             </nav>
