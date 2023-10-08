@@ -12,25 +12,25 @@ export const trabajos = [
         'id': 'rou2go',
         'nombre': 'Rou2Go',
         'url': 'https://rou2go.netlify.app',
-        'tecnologias': 'HTML, CSS, Bootstrap, PHP, MySql',
-        'categorias': 'Repositorio',
-        'descripcion': 'Lorem Ipsum'
+        'tecnologias': 'Javascript, CSS, Bootstrap, Html.',
+        'categorias': 'Web',
+        'descripcion': 'ExploreBook es una aplicación web moderna y elegante desarrollada en JavaScript, con un diseño optimizado utilizando CSS y componentes de Bootstrap. Esta aplicación está diseñada para los amantes de la naturaleza y la aventura, permitiéndoles explorar y descubrir libros relacionados con actividades al aire libre y rutas de senderismo.'
     },
     {
         'id': 'expensesapp',
         'nombre': 'ExpensesApp',
-        'url': 'https://www.youtube.com/watch?v=8ui9umU0C2g&ab_channel=manchesterorchVEVO',
-        'tecnologias': 'JS, React, PHP, Symfony',
-        'categorias': 'Videos',
-        'descripcion': 'Lorem Ipsum'
+        'url': 'https://expensesappa.netlify.app',
+        'tecnologias': 'Javascript, React, Node.js.',
+        'categorias': 'App',
+        'descripcion': 'GastoTracker es una aplicación web desarrollada en React diseñada para ayudar a los usuarios a llevar un seguimiento detallado de sus gastos anuales y analizar visualmente cómo se distribuyen a lo largo del año. La aplicación muestra tus gastos para gestionarlos y visualizar datos financieros personales.'
     },
     {
-        'id': 'youtube2',
-        'nombre': 'Youtube',
-        'url': 'https://www.youtube.com/watch?v=8ui9umU0C2g&ab_channel=manchesterorchVEVO',
-        'tecnologias': 'JS, React, PHP, Symfony',
-        'categorias': 'Videos',
-        'descripcion': 'Lorem Ipsum'
+        'id': 'proyectoCurri',
+        'nombre': 'Simulador de montaje de equipos en Realidad Virtual.',
+        'url': 'https://youtu.be/9VPlUwxPWD0?si=i2W9MLvNVEZR1YUF',
+        'tecnologias': 'Unreal Engine 4.27, Blueprints y C++, Oculus Quest 2, Blender.',
+        'categorias': 'Game',
+        'descripcion': 'Este video muestra los frutos de meses de arduo trabajo en la creación de un prototipo de simulador de montaje de equipos en realidad virtual (VR), desarrollado utilizando Unreal Engine 4.3. Este proyecto sienta las bases para la futura construcción de un simulador aún más sofisticado, que desempeñará un papel fundamental como recurso complementario en entornos educativos.'
     },
     {
         'id': 'youtube3',
