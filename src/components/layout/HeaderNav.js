@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import DarkMode from '../DarkMode';
+// import DarkMode from '../DarkMode';
 
 export const HeaderNav = () => {
     return (
@@ -30,9 +30,9 @@ export const HeaderNav = () => {
                     <li>
                         <NavLink to='/contacto' className={({ isActive }) => isActive ? 'active' : ''}>Contacto</NavLink>
                     </li>
-                    <li>
+                    {/* <li>
                         <DarkMode></DarkMode>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
         </header>

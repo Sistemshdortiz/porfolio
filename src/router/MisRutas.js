@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Inicio } from '../components/Inicio';
 import { Portafolio } from '../components/Portafolio';
@@ -10,6 +11,11 @@ import { Footer } from '../components/layout/Footer';
 import { Proyecto } from '../components/Proyecto';
 
 export const MisRutas = () => {
+
+    const [textToType, setTextToType] = useState(
+        `  ¡Hola! Soy Hernán, un 💻 Desarrollador Web 💻 con sede en Madrid, España. Me apasiona crear experiencias web cautivadoras. Mi trayectoria en el mundo del desarrollo web me ha dotado de un variado conjunto de habilidades que incluyen JavaScript, React, PHP y más. Echa un vistazo más de cerca a mi portafolio para explorar algunos de mis proyectos recientes y descubrir cómo puedo contribuir a tu próximo emprendimiento de desarrollo web. 🔍💼✨.`
+      );
+
     return (
         <BrowserRouter>
 
@@ -19,7 +25,7 @@ export const MisRutas = () => {
             <section className='content'>
                 <Routes>
                     <Route path='/' element={<Navigate to='/inicio' />} /> {/* Redirigimos al inicio por defecto para que se apliquen estilos css */}
-                    <Route path='/inicio' element={<Inicio />} />
+                    <Route path='/inicio' element={<Inicio textToType={textToType} setTextToType={setTextToType}/>} />
                     <Route path='/portafolio' element={<Portafolio />} />
                     <Route path='/servicios' element={<Servicios />} />
                     <Route path='/curriculum' element={<Curriculum />} />
