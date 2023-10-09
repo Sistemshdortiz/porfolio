@@ -12,7 +12,7 @@ const TypingEffect = ({ textToType }) => {
             } else {
                 clearInterval(typingInterval);   
             }
-        }, 50); // Ajusta la velocidad de escritura aquí (en milisegundos)
+        }, 45); // Ajusta la velocidad de escritura aquí (en milisegundos)
 
         return () => clearInterval(typingInterval); // Limpia el intervalo al desmontar el componente
     }, [textToType]);
