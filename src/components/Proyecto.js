@@ -25,7 +25,7 @@ export const Proyecto = () => {
             </div>
             <p>Tecnologías: {proyecto.tecnologias}</p>
             <p>Descrpción: {proyecto.descripcion}</p>
-            <a href={proyecto.url} target='_blank' rel="noreferrer">Ir al proyecto</a>
+            <a href={proyecto.url} target='_blank' rel="noreferrer" className='porfoliolink'>Demos un vistazo</a>
         </div>
     )
 }

@@ -151,6 +151,15 @@ code {
   transition: all 300ms;
 }
 
+.porfoliolink{
+  background-color: var(--highlight-color);
+  color: white;
+  border-radius: 5px;
+  padding: 7px;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
 .page .heading,
 .home .heading {
   font-size: 40px;

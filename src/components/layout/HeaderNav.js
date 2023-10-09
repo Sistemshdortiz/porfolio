@@ -7,7 +7,7 @@ export const HeaderNav = () => {
         <header className='header'>
             <div className='logo'>
                 <div>
-                    <img src={'/images/perfil_Img.png'} alt="Jorge" width={120} height={120} style={{ marginRight: '10px', borderRadius: '15px' }} />
+                    <img src={'/images/LogoPorfolio.png'} alt="LogoPorfolio" width={120} height={120} style={{ marginRight: '10px', borderRadius: '27% 73% 70% 30% / 52% 43% 57% 48% ' }} />
                 </div>
                 <span>H</span>
                 <h3>ernán Ortiz WEB</h3>
@@ -22,7 +22,7 @@ export const HeaderNav = () => {
                         <NavLink to='/portafolio' className={({ isActive }) => isActive ? 'active' : ''}>Portafolio</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/servicios' className={({ isActive }) => isActive ? 'active' : ''}>Servicios</NavLink>
+                        <NavLink to='/servicios' className={({ isActive }) => isActive ? 'active' : ''}>Perfil</NavLink>
                     </li>
                     <li>
                         <NavLink to='/curriculum' className={({ isActive }) => isActive ? 'active' : ''}>Curriculum</NavLink>
