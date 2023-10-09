@@ -13,7 +13,7 @@ import { Proyecto } from '../components/Proyecto';
 export const MisRutas = () => {
 
     const [textToType, setTextToType] = useState(
-        `  ¡Hola! Soy Hernán, un 💻 Desarrollador Web 💻 con sede en Madrid, España. Me apasiona crear experiencias web cautivadoras. Mi trayectoria en el mundo del desarrollo web me ha dotado de un variado conjunto de habilidades que incluyen JavaScript, React, PHP y más. Echa un vistazo más de cerca a mi portafolio para explorar algunos de mis proyectos recientes y descubrir cómo puedo contribuir a tu próximo emprendimiento de desarrollo web. 🔍💼✨.`
+        `  ¡Hola! Soy Hernán, un 💻 Desarrollador Web 💻 con sede en Madrid, España. Te doy la bienvenida a mi Porfolio, echa un vistazo más de cerca a mi portafolio para explorar algunos de mis proyectos recientes. 🔍💼✨.`
       );
 
     return (
