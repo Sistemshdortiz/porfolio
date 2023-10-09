@@ -1,5 +1,4 @@
 import React from 'react';
-import { useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Inicio } from '../components/Inicio';
 import { Portafolio } from '../components/Portafolio';
@@ -12,9 +11,7 @@ import { Proyecto } from '../components/Proyecto';
 
 export const MisRutas = () => {
 
-    const [textToType, setTextToType] = useState(
-        `  ¡Hola! Soy Hernán, un 💻 Desarrollador Web 💻 con sede en Madrid, España. Te doy la bienvenida a mi Porfolio, echa un vistazo más de cerca a mi portafolio para explorar algunos de mis proyectos recientes. 🔍💼✨.`
-      );
+   
 
     return (
         <BrowserRouter>
@@ -25,7 +22,7 @@ export const MisRutas = () => {
             <section className='content'>
                 <Routes>
                     <Route path='/' element={<Navigate to='/inicio' />} /> {/* Redirigimos al inicio por defecto para que se apliquen estilos css */}
-                    <Route path='/inicio' element={<Inicio textToType={textToType} setTextToType={setTextToType}/>} />
+                    <Route path='/inicio' element={<Inicio/>} />
                     <Route path='/portafolio' element={<Portafolio />} />
                     <Route path='/servicios' element={<Servicios />} />
                     <Route path='/curriculum' element={<Curriculum />} />

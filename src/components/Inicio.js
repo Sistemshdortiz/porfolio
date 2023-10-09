@@ -2,7 +2,11 @@ import { Link } from 'react-router-dom';
 import { ListadoTrabajosRandom } from './ListadoTrabajosRandom';
 import TypingEffect from './TypingEffect';
 
-export const Inicio = ({ textToType }) => {
+export const Inicio = () => {
+
+  const textToType =
+    `  ¡Hola! Soy Hernán, un 💻 Desarrollador Web 💻 con sede en Madrid, España. Te doy la bienvenida a mi Porfolio, echa un vistazo más de cerca a mi portafolio para explorar algunos de mis proyectos recientes. 🔍💼✨.`
+  ;
 
   return (
     <div className='home'>
