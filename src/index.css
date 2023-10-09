@@ -5,7 +5,7 @@
   --border_color: black;
 }
 
-[dark-theme] {
+body.dark-theme {
   --body_background: #282c34;
   --body_color: white;
   --highlight-color: purple;

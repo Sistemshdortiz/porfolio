@@ -7,11 +7,13 @@ import "../index.css"
 
 const DarkMode = () => {
 
-    const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
+    // Al cargar el componente, verificamos el tema actual en localStorage
     const currentTheme = localStorage.getItem("theme");
-    console.log(localStorage.getItem("theme"))
+
+    // Si el tema actual es "dark", establecemos isDarkMode en true
     if (currentTheme === "dark") {
       setIsDarkMode(true);
     } else {
@@ -21,13 +23,18 @@ const DarkMode = () => {
 
   useEffect(() => {
     // Cuando cambia el estado de isDarkMode, alternamos la clase del cuerpo del documento
-    document.body.setAttribute("dark-theme", isDarkMode);
+    if (isDarkMode) {
+      document.body.classList.add("dark-theme");
+    } else {
+      document.body.classList.remove("dark-theme");
+    }
 
     // También puedes guardar el tema actual en localStorage
     localStorage.setItem("theme", isDarkMode ? "dark" : "light");
   }, [isDarkMode]);
 
   const toggleTheme = () => {
+    // Cambiamos el estado de isDarkMode al hacer clic en el interruptor
     setIsDarkMode(!isDarkMode);
   };
 
