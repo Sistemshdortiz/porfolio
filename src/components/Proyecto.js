@@ -24,7 +24,7 @@ export const Proyecto = () => {
                 </a>
             </div>
             <p>Tecnologías: {proyecto.tecnologias}</p>
-            <p>Descrpción: {proyecto.descripcion}</p>
+            <p>Descripción: {proyecto.descripcion}</p>
             <a href={proyecto.url} target='_blank' rel="noreferrer" className='porfoliolink'>Demos un vistazo</a>
         </div>
     )
