@@ -33,27 +33,27 @@ export const trabajos = [
         'descripcion': 'Este video muestra los frutos de meses de arduo trabajo en la creación de un prototipo de simulador de montaje de equipos en realidad virtual (VR), desarrollado utilizando Unreal Engine 4.3. Este proyecto sienta las bases para la futura construcción de un simulador aún más sofisticado, que desempeñará un papel fundamental como recurso complementario en entornos educativos.'
     },
     {
-        'id': 'youtube3',
-        'nombre': 'Youtube',
-        'url': 'https://www.youtube.com/watch?v=8ui9umU0C2g&ab_channel=manchesterorchVEVO',
-        'tecnologias': 'JS, React, PHP, Symfony',
-        'categorias': 'Videos',
+        'id': 'workinprogress',
+        'nombre': 'Coming up..',
+        'url': 'https://hdortizporfolio.netlify.app/',
+        'tecnologias': 'Javascript, Css,..',
+        'categorias': 'Game',
         'descripcion': 'Lorem Ipsum'
     },
-    {
-        'id': 'udemy',
-        'nombre': 'Udemy',
-        'url': 'https://www.udemy.com/home/my-courses/learning/',
-        'tecnologias': 'Mean Stack',
-        'categorias': 'Cursos',
-        'descripcion': 'Lorem Ipsum'
-    },
-    {
-        'id': 'linkedIn',
-        'nombre': 'LinkedIn',
-        'url': 'https://www.linkedin.com/in/hdortizjinez/',
-        'tecnologias': 'HTML, CSS, Bootstrap, PHP, Laravel',
-        'categorias': 'Red Social',
-        'descripcion': 'Lorem Ipsum'
-    }
+    // {
+    //     'id': 'udemy',
+    //     'nombre': 'Udemy',
+    //     'url': 'https://www.udemy.com/home/my-courses/learning/',
+    //     'tecnologias': 'Mean Stack',
+    //     'categorias': 'Cursos',
+    //     'descripcion': 'Lorem Ipsum'
+    // },
+    // {
+    //     'id': 'linkedIn',
+    //     'nombre': 'LinkedIn',
+    //     'url': 'https://www.linkedin.com/in/hdortizjinez/',
+    //     'tecnologias': 'HTML, CSS, Bootstrap, PHP, Laravel',
+    //     'categorias': 'Red Social',
+    //     'descripcion': 'Lorem Ipsum'
+    // }
 ];
