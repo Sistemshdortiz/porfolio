@@ -25,7 +25,7 @@ export const trabajos = [
         'descripcion': 'GastoTracker es una aplicación web desarrollada en React diseñada para ayudar a los usuarios a llevar un seguimiento detallado de sus gastos anuales y analizar visualmente cómo se distribuyen a lo largo del año. La aplicación muestra tus gastos para gestionarlos y visualizar datos financieros personales.'
     },
     {
-        'id': 'proyectoCurri',
+        'id': 'gamevr',
         'nombre': 'Simulador de montaje de equipos en Realidad Virtual.',
         'url': 'https://youtu.be/9VPlUwxPWD0?si=i2W9MLvNVEZR1YUF',
         'tecnologias': 'Unreal Engine 4.27, Blueprints y C++, Oculus Quest 2, Blender.',
