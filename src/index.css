@@ -190,7 +190,7 @@ textarea {
 input[type="submit"],
 button {
   font-size: 15px;
-  background-color: #fa4529;
+  background-color: var(--highlight-color);
   color: white;
   border-radius: 5px;
   padding: 15px;

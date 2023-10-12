@@ -33,17 +33,17 @@ export const trabajos = [
         'descripcion': 'Este video muestra los frutos de meses de arduo trabajo en la creación de un prototipo de simulador de montaje de equipos en realidad virtual (VR), desarrollado utilizando Unreal Engine 4.3. Este proyecto sienta las bases para la futura construcción de un simulador aún más sofisticado, que desempeñará un papel fundamental como recurso complementario en entornos educativos.'
     },
     {
-        'id': 'workinprogress',
-        'nombre': 'Coming up..',
-        'url': 'https://hdortizporfolio.netlify.app/',
-        'tecnologias': 'Javascript, Css,..',
-        'categorias': 'Game',
-        'descripcion': 'Lorem Ipsum'
+        'id': 'surfclub',
+        'nombre': 'Surfing Club Website',
+        'url': 'https://github.com/Sistemshdortiz/surfclub-web-symfony',
+        'tecnologias': 'Symfony, PHP, Twig, CSS, Xamp, Apache, MySQL',
+        'categorias': 'Web',
+        'descripcion': 'Este proyecto es una página web dinámica y eficiente construida con Symfony como marco de desarrollo. Utiliza un entorno XAMPP con servidor Apache y una base de datos MySQL para gestionar y almacenar datos. La combinación de Symfony, XAMPP y MySQL garantiza un rendimiento óptimo y una experiencia de usuario excepcional en la plataforma web.'
     },
     // {
-    //     'id': 'udemy',
-    //     'nombre': 'Udemy',
-    //     'url': 'https://www.udemy.com/home/my-courses/learning/',
+    //     'id': 'surfclub',
+    //     'nombre': 'Surfing Club Website',
+    //     'url': 'https://hdortizporfolio.netlify.app/',
     //     'tecnologias': 'Mean Stack',
     //     'categorias': 'Cursos',
     //     'descripcion': 'Lorem Ipsum'
