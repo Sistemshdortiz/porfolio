@@ -1,5 +1,5 @@
 import React from 'react';
-import myResumePDF from '../cv/Hernán_Ortiz_Jinez_CV.pdf';
+import myResumePDF from '../cv/Hernán_Ortiz_Cv.pdf';
 
 export const Curriculum = () => {
   return (

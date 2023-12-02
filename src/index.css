@@ -179,13 +179,13 @@ code {
   color: rgb(98, 97, 97);
 }
 
-input[type="text"],
+/* input[type="text"],
 textarea {
   display: block;
   padding: 15px;
   width: 250px;
   margin-top: 25px;
-}
+} */
 
 input[type="submit"],
 button {
@@ -197,14 +197,14 @@ button {
   text-decoration: none;
   transition: all 300ms;
   border: 0px;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   cursor: pointer;
 }
 
 .home .tittle a:hover,
 input[type="submit"]:hover,
 button:hover {
-  background-color: rgb(26, 137, 26);
+  background-color: rgb(60, 155, 60);
 }
 
 /************ Renderizado Imágenes de proyectos (Portafolio.js) ************/
