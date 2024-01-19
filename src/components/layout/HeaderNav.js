@@ -19,7 +19,7 @@ export const HeaderNav = () => {
                         <NavLink to='/inicio' className={({ isActive }) => isActive ? 'active' : ''}>Inicio</NavLink> {/* Con la desestructuración de objetos vemos si está activa la clase, se quede marcada en el menú, si no, no se aplica clase de css*/}
                     </li>
                     <li>
-                        <NavLink to='/portafolio' className={({ isActive }) => isActive ? 'active' : ''}>Portafolio</NavLink>
+                        <NavLink to='/portafolio' className={({ isActive }) => isActive ? 'active' : ''}>Portfolio</NavLink>
                     </li>
                     <li>
                         <NavLink to='/servicios' className={({ isActive }) => isActive ? 'active' : ''}>Perfil</NavLink>

@@ -17,7 +17,7 @@ export const Curriculum = () => {
       {/* Mostrar el PDF directamente en la página */}
       <embed src={currentPDF} type="application/pdf" width="100%" height="600px" />
       {/* Botones para cambiar el PDF */}
-      <button onClick={() => handleButtonClick(myResumePDF)}>CV en Español</button>
+      <button onClick={() => handleButtonClick(myResumePDF)}>Cv en Español</button>
       <button onClick={() => handleButtonClick(myResumePDF2)}>Cv en Inglés</button>
     </div>
   );
