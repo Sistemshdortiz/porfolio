@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import DarkMode from '../DarkMode';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Importa los estilos de Bootstrap
+// import 'bootstrap/dist/css/bootstrap.min.css'; // Importa los estilos de Bootstrap
 
 export const HeaderNav = () => {
     return (
@@ -20,19 +20,19 @@ export const HeaderNav = () => {
                     <nav>
                         <ul className='navbar-nav'>
                             <li className='nav-item'>
-                                <NavLink to='/inicio' className='nav-link' activeClassName='active'>Inicio</NavLink>
+                                <NavLink to='/inicio'  className={isActive =>"nav-link" + (!isActive ? " unselected" : "")}>Inicio</NavLink>
                             </li>
                             <li className='nav-item'>
-                                <NavLink to='/portafolio' className='nav-link' activeClassName='active'>Portfolio</NavLink>
+                                <NavLink to='/portafolio'  className={isActive =>"nav-link" + (!isActive ? " unselected" : "")}>Portfolio</NavLink>
                             </li>
                             <li className='nav-item'>
-                                <NavLink to='/servicios' className='nav-link' activeClassName='active'>Perfil</NavLink>
+                                <NavLink to='/servicios'  className={isActive =>"nav-link" + (!isActive ? " unselected" : "")}>Perfil</NavLink>
                             </li>
                             <li className='nav-item'>
-                                <NavLink to='/curriculum' className='nav-link' activeClassName='active'>Curriculum</NavLink>
+                                <NavLink to='/curriculum'  className={isActive =>"nav-link" + (!isActive ? " unselected" : "")}>Curriculum</NavLink>
                             </li>
                             <li className='nav-item'>
-                                <NavLink to='/contacto' className='nav-link' activeClassName='active'>Contacto</NavLink>
+                                <NavLink to='/contacto'  className={isActive =>"nav-link" + (!isActive ? " unselected" : "")}>Contacto</NavLink>
                             </li>
                             <li className='nav-item'>
                                 <DarkMode />
