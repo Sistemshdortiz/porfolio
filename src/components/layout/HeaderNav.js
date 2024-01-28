@@ -4,15 +4,16 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 import DarkMode from '../DarkMode';
 // Importa los estilos de Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "../../index.css"
 
 export const HeaderNav = () => {
     const [expanded, setExpanded] = useState(false);
 
     return (
-        <header className='header navbar navbar-expand-lg   justify-content-end'>
-            <Container>
+        <header className='header navbar navbar-expand-lg justify-content-end'>
+            <Container className='justify-content-start'>
                 <button
-                    className='navbar-toggler'
+                    className='navbar-toggler hambuguerButton'
                     type='button'
                     onClick={() => setExpanded(!expanded)}
                 >
@@ -23,11 +24,11 @@ export const HeaderNav = () => {
                     expanded={expanded}
                     className={`collapse navbar-collapse ${expanded ? 'show' : ''} `}
                 >
-                    <Nav className={`navbar-nav ${expanded ? 'flex-column' : ''}`}>
+                    <Nav className={`mavbar-nav ${expanded ? 'flex-column' : ''}`}>
                         <li className='nav-item'>
                             <NavLink
                                 to='/inicio'
-                                className='nav-link'
+                                className='nav-link nav-link-custom'
                                 onClick={() => setExpanded(false)}
                             >
                                 Inicio
@@ -36,7 +37,7 @@ export const HeaderNav = () => {
                         <li className='nav-item'>
                             <NavLink
                                 to='/portafolio'
-                                className='nav-link'
+                                className='nav-link nav-link-custom'
                                 onClick={() => setExpanded(false)}
                             >
                                 Portfolio
@@ -45,7 +46,7 @@ export const HeaderNav = () => {
                         <li className='nav-item'>
                             <NavLink
                                 to='/servicios'
-                                className='nav-link'
+                                className='nav-link nav-link-custom'
                                 onClick={() => setExpanded(false)}
                             >
                                 Perfil
@@ -54,7 +55,7 @@ export const HeaderNav = () => {
                         <li className='nav-item'>
                             <NavLink
                                 to='/curriculum'
-                                className='nav-link'
+                                className='nav-link nav-link-custom'
                                 onClick={() => setExpanded(false)}
                             >
                                 Curriculum
@@ -63,7 +64,7 @@ export const HeaderNav = () => {
                         <li className='nav-item'>
                             <NavLink
                                 to='/contacto'
-                                className='nav-link'
+                                className='nav-link nav-link-custom'
                                 onClick={() => setExpanded(false)}
                             >
                                 Contacto

@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --body_background: #FFFFF0;
   --body_color: black;
@@ -48,16 +54,17 @@ code {
   margin-bottom: 35px;
 }  */
 
-.header{
+.header {
   border-bottom: 3px solid var(--border_color);
- 
+
 }
+
 .header .logo {
 
   max-height: fit-content;
   margin-right: 10px;
   border-radius: 27% 73% 70% 30% / 52% 43% 57% 48%;
-} 
+}
 
 /* .header .logo span {
   margin-top: -8px;
@@ -90,19 +97,35 @@ code {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 16px;
-  margin-left: 15px;
-  margin-right: 15px;
+}
 
-}                         
 
 .header {
 
   text-decoration: none;
   transition: all 300ms;
-} 
-.nav-link-custom{
-  color: var(--body_color);
 }
+
+.hambuguerButton {
+  background-color: var(--highlight-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link-custom {
+  background-color: var(--body_background);
+  transition: all 0.3s ease-in-out;
+  color: var(--body_color); 
+}
+.navbar-nav .nav-item .nav-link-custom:hover {
+  color: var(--highlight-color);
+  transition: all 0.3s ease-in-out;
+}
+.navbar-nav .nav-item .nav-link-custom.active {
+  color: var(--highlight-color);
+  transition: all 0.3s ease-in-out;
+}
+
+
 
 /* Aqui aplicamos la desetructuración de objetos para dejar activado este estilo si está en esta parte del menú */
 /* .header .active,
