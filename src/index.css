@@ -38,7 +38,7 @@ code {
 }
 
 /********************** HEADER **********************/
-.header {
+/* .header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,42 +46,45 @@ code {
   height: 132px;
   border-bottom: 3px solid var(--border_color);
   margin-bottom: 35px;
-}
+}  */
 
+.header{
+  border-bottom: 3px solid var(--border_color);
+ 
+}
 .header .logo {
-  display: flex;
-  /*Para que se coloquen los elementos del logo juntos*/
-  flex-grow: 2;
-  color: var(--highlight-color);
-}
 
-.header .logo span {
+  max-height: fit-content;
+  margin-right: 10px;
+  border-radius: 27% 73% 70% 30% / 52% 43% 57% 48%;
+} 
+
+/* .header .logo span {
   margin-top: -8px;
   display: block;
   font-size: 90px;
   font-weight: bolder;
   text-transform: uppercase;
-}
+} */
 
-.header .logo h3 {
+/* .header .logo h3 {
   display: block;
   flex-basis: 40px;
   margin-left: 10px;
   font-weight: 320;
-}
+} */
 
-.header nav {
+/* .header nav {
   flex-grow: 1;
-}
+} */
 
-.header nav ul {
+/* .header nav ul {
   display: flex;
   height: 132px;
-  justify-content: flex-end;
-  /*Para que el menú se coloque alineado con el contenedor de la derecha */
+  justify-content: end;
   align-items: center;
   list-style: none;
-}
+} */
 
 .header li {
   text-transform: uppercase;
@@ -89,19 +92,23 @@ code {
   font-size: 16px;
   margin-left: 15px;
   margin-right: 15px;
-}
 
-.header li a {
-  color: var(--body_color);
+}                         
+
+.header {
+
   text-decoration: none;
   transition: all 300ms;
+} 
+.nav-link-custom{
+  color: var(--body_color);
 }
 
 /* Aqui aplicamos la desetructuración de objetos para dejar activado este estilo si está en esta parte del menú */
-.header .active,
+/* .header .active,
 .header a:hover {
   color: var(--highlight-color);
-}
+} */
 
 
 /********************** CONTENT **********************/

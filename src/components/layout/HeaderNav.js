@@ -1,46 +1,80 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { Container, Navbar, Nav } from 'react-bootstrap';
 import DarkMode from '../DarkMode';
-// import 'bootstrap/dist/css/bootstrap.min.css'; // Importa los estilos de Bootstrap
+// Importa los estilos de Bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const HeaderNav = () => {
-    return (
-        <header className='header navbar navbar-expand-lg navbar-light bg-light'>
-            <div className='container'>
-                <NavLink to='/' className='navbar-brand'>
-                    <img src={'/images/LogoPorfolio.png'} alt="LogoPorfolio" width={120} height={120} style={{ marginRight: '10px', borderRadius: '27% 73% 70% 30% / 52% 43% 57% 48% ' }} />
-                    <span>H</span>ernán Ortiz WEB
-                </NavLink>
+    const [expanded, setExpanded] = useState(false);
 
-                <button className='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
+    return (
+        <header className='header navbar navbar-expand-lg   justify-content-end'>
+            <Container>
+                <button
+                    className='navbar-toggler'
+                    type='button'
+                    onClick={() => setExpanded(!expanded)}
+                >
                     <span className='navbar-toggler-icon'></span>
                 </button>
 
-                <div className='collapse navbar-collapse' id='navbarNav'>
-                    <nav>
-                        <ul className='navbar-nav'>
-                            <li className='nav-item'>
-                                <NavLink to='/inicio'  className={isActive =>"nav-link" + (!isActive ? " unselected" : "")}>Inicio</NavLink>
-                            </li>
-                            <li className='nav-item'>
-                                <NavLink to='/portafolio'  className={isActive =>"nav-link" + (!isActive ? " unselected" : "")}>Portfolio</NavLink>
-                            </li>
-                            <li className='nav-item'>
-                                <NavLink to='/servicios'  className={isActive =>"nav-link" + (!isActive ? " unselected" : "")}>Perfil</NavLink>
-                            </li>
-                            <li className='nav-item'>
-                                <NavLink to='/curriculum'  className={isActive =>"nav-link" + (!isActive ? " unselected" : "")}>Curriculum</NavLink>
-                            </li>
-                            <li className='nav-item'>
-                                <NavLink to='/contacto'  className={isActive =>"nav-link" + (!isActive ? " unselected" : "")}>Contacto</NavLink>
-                            </li>
-                            <li className='nav-item'>
-                                <DarkMode />
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+                <Navbar
+                    expanded={expanded}
+                    className={`collapse navbar-collapse ${expanded ? 'show' : ''} `}
+                >
+                    <Nav className={`navbar-nav ${expanded ? 'flex-column' : ''}`}>
+                        <li className='nav-item'>
+                            <NavLink
+                                to='/inicio'
+                                className='nav-link'
+                                onClick={() => setExpanded(false)}
+                            >
+                                Inicio
+                            </NavLink>
+                        </li>
+                        <li className='nav-item'>
+                            <NavLink
+                                to='/portafolio'
+                                className='nav-link'
+                                onClick={() => setExpanded(false)}
+                            >
+                                Portfolio
+                            </NavLink>
+                        </li>
+                        <li className='nav-item'>
+                            <NavLink
+                                to='/servicios'
+                                className='nav-link'
+                                onClick={() => setExpanded(false)}
+                            >
+                                Perfil
+                            </NavLink>
+                        </li>
+                        <li className='nav-item'>
+                            <NavLink
+                                to='/curriculum'
+                                className='nav-link'
+                                onClick={() => setExpanded(false)}
+                            >
+                                Curriculum
+                            </NavLink>
+                        </li>
+                        <li className='nav-item'>
+                            <NavLink
+                                to='/contacto'
+                                className='nav-link'
+                                onClick={() => setExpanded(false)}
+                            >
+                                Contacto
+                            </NavLink>
+                        </li>
+                        <li className='nav-item'>
+                            <DarkMode />
+                        </li>
+                    </Nav>
+                </Navbar>
+            </Container>
         </header>
     );
 };
