@@ -116,6 +116,7 @@ code {
   transition: all 0.3s ease-in-out;
   color: var(--body_color); 
 }
+
 .navbar-nav .nav-item .nav-link-custom:hover {
   color: var(--highlight-color);
   transition: all 0.3s ease-in-out;

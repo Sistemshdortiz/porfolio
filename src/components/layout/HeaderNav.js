@@ -11,7 +11,7 @@ export const HeaderNav = () => {
 
     return (
         <header className='header navbar navbar-expand-lg justify-content-end'>
-            <Container className='justify-content-start'>
+            <Container className='justify-content-end'>
                 <button
                     className='navbar-toggler hambuguerButton'
                     type='button'
@@ -22,7 +22,7 @@ export const HeaderNav = () => {
 
                 <Navbar
                     expanded={expanded}
-                    className={`collapse navbar-collapse ${expanded ? 'show' : ''} `}
+                    className={`collapse navbar-collapse ${expanded ? 'justify-content-start' : 'justify-content-end'}  ${expanded ? 'show' : ''} `}
                 >
                     <Nav className={`mavbar-nav ${expanded ? 'flex-column' : ''}`}>
                         <li className='nav-item'>
