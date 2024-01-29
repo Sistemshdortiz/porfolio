@@ -14,7 +14,8 @@ export const Inicio = () => {
 
       {!isMobile && <TypingEffect textToType={textToType} />}
 
-      <h2 className='tittle'>Te ayudo a crear tu sitio o app web <Link to='/contacto'> Contacta conmigo.</Link></h2>
+      <h2 className='tittle'>Te ayudo a crear tu sitio o app web</h2>
+      <h2 className ="tittle"><Link to='/contacto'> Contacta conmigo.</Link></h2>
 
       {/* Poner carrousel de proyectos */}
       <section className='last-works'>

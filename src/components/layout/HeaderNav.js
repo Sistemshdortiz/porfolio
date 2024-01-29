@@ -13,10 +13,15 @@ export const HeaderNav = () => {
         <header className='header navbar navbar-expand-lg justify-content-end'>
             <Container className='justify-content-end'>
                 <button
-                    className='navbar-toggler hambuguerButton'
+                    className={`navbar-toggler hamburguerButton ${expanded ? 'expanded' : ''}`}
+                    aria-controls="navbarSupportedContent15"
+                    aria-expanded={expanded}
+                    aria-label="Toggle navigation"
                     type='button'
                     onClick={() => setExpanded(!expanded)}
                 >
+                    <span className='navbar-toggler-icon'></span>
+                    <span className='navbar-toggler-icon'></span>
                     <span className='navbar-toggler-icon'></span>
                 </button>
 
