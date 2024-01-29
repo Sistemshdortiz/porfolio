@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Contacto = () => {
   return (
-    <div className="container w-75 bg-secondary mt-5 rounded shadow">
+    <div className="container w-50 bg-secondary mt-5 rounded shadow">
       <form className='text-center' data-netlify="true" method="POST">
         <h1 className='fw-bold text-center py-5'>Contacto</h1>
 
@@ -20,7 +20,7 @@ export const Contacto = () => {
           <textarea type='text' className='form-control' placeholder='Motivo de contacto' name='motivo' />
         </div>
 
-        <input type='submit' value='Enviar' />
+        <input type='submit' value='Enviar' className='mb-3' />
 
       </form>
     </div>
