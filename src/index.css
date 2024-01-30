@@ -31,6 +31,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: all 0.3s ease-in-out;
+  min-width: 335px;
 }
 
 code {
@@ -124,6 +125,7 @@ code {
   margin: 3px 0;
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
+
 .hamburguerButton.expanded span:nth-child(1) {
   transform: translateY(12px) rotate(45deg);
 }
@@ -150,13 +152,14 @@ code {
 .navbar-nav .nav-item .nav-link-custom {
   background-color: var(--body_background);
   transition: all 0.3s ease-in-out;
-  color: var(--body_color); 
+  color: var(--body_color);
 }
 
 .navbar-nav .nav-item .nav-link-custom:hover {
   color: var(--highlight-color);
   transition: all 0.3s ease-in-out;
 }
+
 .navbar-nav .nav-item .nav-link-custom.active {
   color: var(--highlight-color);
   transition: all 0.3s ease-in-out;
@@ -182,7 +185,8 @@ code {
   font-size: 14px;
   margin-top: 35px;
   border-top: 3px solid var(--border_color);
-  padding-top: 45px;
+  padding-top: 15px;
+  padding-bottom: 30px;
   background: var(--body_background);
   min-height: 40px;
   line-height: 7px;
